@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front Page</title>
+</head>
+<body>
+    <u><h1>Article and Keywords Provider</h1></u>
+    <p>
+        Please Enter Your Query:
+    </p>
+    <form action="/sub" method="POST">
+        <input type="text" name="userquery" placeholder="Please Enter Query"><br>
+        <p>
+        Please Enter Number of Keywords:
+    </p>
+        <input type="number" name="keywords" placeholder="Number of Keywords"><br><br>
+        <input type="submit" value="Submit" onclick="msg()">
+    </form>
+    <script>
+function msg() {
+  alert("Please wait a few seconds, while we load the Results,Press OK to Continue");
+}
+</script>
+</body>
+</html>
